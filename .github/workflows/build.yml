@@ -12,4 +12,4 @@ jobs:
       - uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/openwa:latest
+          tags: devmono/openwa:latest
